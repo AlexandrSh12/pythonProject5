@@ -8,5 +8,5 @@ app.include_router(users_router)
 
 @app.get("/")
 def f_indexH():
-    return {"message": "Добро пожаловать! Это мой простой Web API."}
+    return {"message": "Добро пожаловать! Это мой простой Web AP."}
 
