@@ -1,1 +1,8 @@
 # created by virtualenv automatically
+*
+/*
+!/models
+/models/*
+/*
+!/public
+/public/*
