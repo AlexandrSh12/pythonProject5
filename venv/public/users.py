@@ -9,7 +9,7 @@ users_router = APIRouter()
 def coder_passwd (cod: str):
     result = cod*2
 
-users_list = [Main_UserDB(name='Musk', id=108, password = 'qwert'), Main_UserDB(name='Tylr', id=134, password = '2qwerty2')]
+users_list = [Main_UserDB(name='Musk', id=108, password = 'qwert'), Main_UserDB(name='Tyler', id=134, password = '2qwerty2')]
 
 users = []
 def find_user(id: int) -> Union[Main_UserDB, None]:
